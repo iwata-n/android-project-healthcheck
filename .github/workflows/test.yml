@@ -9,3 +9,9 @@ jobs:
     steps:
       - name: Run
         uses: iwata-n/android-project-healthcheck@main
+      - name: Archive
+        uses: actions/upload-artifact@v2
+        with:
+          name: checkstyle
+          path: checkstyle_result.apk
+
