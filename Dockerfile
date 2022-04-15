@@ -4,4 +4,4 @@ RUN curl -sSLO https://github.com/detekt/detekt/releases/download/v1.19.0/detekt
 RUN curl -sSLO https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.1/checkstyle-10.1-all.jar
 ADD check.sh /check.sh
 
-ENTRYPOINT [/check.sh]
+ENTRYPOINT ["./check.sh"]
