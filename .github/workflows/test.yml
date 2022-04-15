@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Change Name
-        uses: iwata-n/android-project-helthcheck@main
+        uses: iwata-n/android-project-healthcheck@main
