@@ -1,7 +1,7 @@
 #!/bin/sh
+mkdir result
+java -jar /checkstyle.jar -c ./result/checkstyle_rule.xml -o /checkstyle_result.txt **/*.java
 
-java -jar /checkstyle.jar -c /checkstyle_rule.xml -o /checkstyle_result.txt **/*.java
-
-echo "test" > result.txt
+date > ./result/result.txt
 
 exit 0
