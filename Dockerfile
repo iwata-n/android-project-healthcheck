@@ -5,4 +5,4 @@ RUN curl -sSLO https://github.com/checkstyle/checkstyle/releases/download/checks
 ADD checkstyle_rule.xml /checkstyle_rule.xml
 ADD check.sh /check.sh
 
-ENTRYPOINT ["ls -la"]
+ENTRYPOINT ["ls"]
