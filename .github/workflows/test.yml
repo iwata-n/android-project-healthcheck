@@ -7,5 +7,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Change Name
+      - name: Run
         uses: iwata-n/android-project-healthcheck@main
