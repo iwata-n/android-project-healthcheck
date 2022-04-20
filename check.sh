@@ -1,5 +1,2 @@
 #!/bin/sh
-mkdir result
-date > ./result/result.txt
-
-java -jar ./checkstyle.jar -c ./checkstyle_rule.xml -o ./result/checkstyle_result.txt **/*.java
+java -jar ./checkstyle.jar -f xml -c checkstyle_rule.xml -o checkstyle_result.xml **/*.java

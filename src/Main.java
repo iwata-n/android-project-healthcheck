@@ -1,9 +1,15 @@
 class Hello{
   public void test() {
-    if (True) {
-      if (True) {
-        if (True) {
-          System.out.println("Hello");
+    bool a = false;
+    if (a) {
+      bool b = true;
+      if (b) {
+        bool c = false;
+        if (c) {
+          bool d = false;
+          if (d) {
+            System.out.println("Hello");
+          }
         }
       }
     }

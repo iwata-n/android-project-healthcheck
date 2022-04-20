@@ -5,7 +5,7 @@
 <module name = "Checker">
     <module name="TreeWalker">
         <module name="CyclomaticComplexity">
-            <property name="max" value="7"/>
+            <property name="max" value="4"/>
         </module>
     </module>
 </module>
